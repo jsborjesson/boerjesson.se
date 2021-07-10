@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       colors: {
         kvadrat: "#ab1719",
+      },
+      fontFamily: {
+        sans: ['IBM Plex Sans', 'sans-serif'],
+        serif: ['Coustard', 'serif'],
+        cursive: ['Mr Dafoe', 'cursive'],
       }
     },
   },
