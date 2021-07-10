@@ -1,7 +1,7 @@
 <template>
   <section class="flex p-12 flex-wrap justify-center">
     <p class="mb-6" style="text-indent: 2.5rem;">
-      Efter över 12 år som utvecklare är jag van att snabbt sätta mig in i nya tekniker och använda verktyg på deras respektive mest effektiva sätt. Nedan följer ett axplock av tekniker jag redan är van att arbeta med, ser du flera du känner igen är chansen stor att jag kan hjälpa just er!
+      Efter {{ yearsExperience }} år som utvecklare är jag van att snabbt sätta mig in i nya tekniker och använda verktyg på deras respektive mest effektiva sätt. Nedan följer ett axplock av tekniker jag redan är van att arbeta med, ser du flera du känner igen är chansen stor att jag kan hjälpa just er!
     </p>
     <div
       v-for="tool in tools"
@@ -52,10 +52,13 @@ const tools: Tool[] = [
   { name: "Linux", link: "https://www.kernel.org/", logo: "linux.svg" },
 ]
 
+const startedProgramming = 2009;
+
 export default defineComponent({
   data() {
     return {
       tools,
+      yearsExperience: new Date().getFullYear() - startedProgramming,
     }
   },
 })
