@@ -6,7 +6,7 @@
     <div
       v-for="tool in tools"
       :key="tool.name"
-      class="w-20 h-20 m-6 transform transition-all duration-50 hover:scale-125"
+      class="w-20 h-20 m-6 transform transition-all duration-50 opacity-75 hover:opacity-100 hover:scale-110"
     >
       <a :href="tool.link">
         <figure>
