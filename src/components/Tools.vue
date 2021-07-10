@@ -1,10 +1,17 @@
 <template>
-  <section class="flex flex-wrap p-12 justify-center">
-    <div v-for="tool in tools" :key="tool.name" class="w-20 h-20 m-6">
+  <section class="flex p-12 flex-wrap justify-center">
+    <div
+      v-for="tool in tools"
+      :key="tool.name"
+      class="w-20 h-20 m-8 transform transition-all duration-50 hover:scale-125"
+    >
       <a :href="tool.link">
-        <img
-          :src="`/images/${tool.logo}`"
-          :alt="`${tool.name} logo`" />
+        <figure>
+          <img
+            :src="`/images/${tool.logo}`"
+            :alt="`${tool.name} logo`" />
+          <figcaption class="text-center select-none mt-2">{{ tool.name }}</figcaption>
+        </figure>
       </a>
     </div>
   </section>
