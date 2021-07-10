@@ -14,7 +14,9 @@
   </section>
 
   <section class="bg-kvadrat text-gray-100 p-12">
-    <img class="w-40 mb-6" src="/images/kvadrat.svg" alt="Kvadrat logo" />
+    <a href="https://www.kvadrat.se/">
+      <img class="w-40 mb-6" src="/images/kvadrat.svg" alt="Kvadrat logo" />
+    </a>
 
     <p style="text-indent: 2.5rem;">
       Jag är ansluten till <strong>Kvadrat</strong>, Sveriges lyckligaste konsulter. Vi erbjuder våra kunder en unik kombination av konsultens expertis och egenföretagarens engagemang, attityd och motivation att alltid lyckas. Kvadrat bildades 1988 och idag är vi ca 500 Kvadratare med kontor i Stockholm, Göteborg, Malmö, Linköping, Norrköping, Jönköping, Växjö, Örebro, Borlänge och Sundsvall.
