@@ -10,8 +10,8 @@
 
     <div class="flex flex-col justify-end space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4 mt-6">
       <a
-        href="https://www.kvadrat.se/anlita-kvadrat/hitta-konsult/jimmy-borjesson/" alt="CV Jimmy Börjesson"
-        class="flex py-3 px-6 bg-white text-black font-bold rounded shadow"
+        href="https://www.kvadrat.se/anlita-kvadrat/hitta-konsult/jimmy-borjesson/"
+        class="flex py-3 px-6 bg-white text-black font-bold rounded shadow hover:bg-gray-200 active:bg-gray-200"
       >
         <svg class="fill-current mr-2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
           <path d="M0 0h24v24H0V0z" fill="none"/>
@@ -20,8 +20,8 @@
         Läs mitt CV
       </a>
       <a
-        href="/docs/CV Jimmy Börjesson.docx" alt="CV Jimmy Börjesson"
-        class="flex py-3 px-6 rounded border"
+        href="/docs/CV Jimmy Börjesson.docx"
+        class="flex py-3 px-6 rounded border hover:bg-red-800 active:bg-red-800"
       >
         <svg class="fill-current mr-2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
           <path fill="none" d="M0 0h24v24H0z"/>
