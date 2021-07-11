@@ -1,15 +1,12 @@
 <template>
-  <section class="flex p-12 flex-wrap justify-center">
+  <section class="p-12">
     <p class="mb-6" style="text-indent: 2.5rem;">
       Efter {{ yearsExperience }} år som utvecklare är jag van att snabbt sätta mig in i nya tekniker och använda verktyg på deras respektive mest effektiva sätt. Nedan följer ett axplock av tekniker jag redan är van att arbeta med, ser du flera du känner igen är chansen stor att jag kan hjälpa just er!
     </p>
-    <div
-      v-for="tool in tools"
-      :key="tool.name"
-      class="w-20 h-20 m-6 transform transition-all duration-50 opacity-75 hover:opacity-100 hover:scale-110"
-    >
-      <a :href="tool.link">
-        <figure>
+
+    <div class="flex flex-wrap justify-center">
+      <a v-for="tool in tools" :key="tool.name" :href="tool.link">
+        <figure class="w-20 h-20 m-6 transform transition-all duration-50 opacity-75 hover:opacity-100 hover:scale-110">
           <img
             :src="`/images/${tool.logo}`"
             :alt="`${tool.name} logo`" />
