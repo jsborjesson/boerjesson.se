@@ -1,8 +1,8 @@
 <template>
-  <h1 class="text-4xl px-12 py-12 font-serif font-bold text-gray-900">Börjesson Consulting AB</h1>
+  <h1 class="text-4xl px-12 pt-12 font-serif font-bold text-gray-800">Börjesson Consulting AB</h1>
 
-  <section>
-    <figure class="p-12">
+  <section class="p-12">
+    <figure>
       <blockquote>
         <p class="font-serif text-6xl -mb-12 text-gray-800">&quot;</p>
         <p style="text-indent: 2.5rem;">
