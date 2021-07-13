@@ -47,6 +47,7 @@ const tools: Tool[] = [
   { name: "VS Code", link: "https://code.visualstudio.com/", logo: "vscode.svg" },
   { name: "Docker", link: "https://www.docker.com/", logo: "docker.svg" },
   { name: "Linux", link: "https://www.kernel.org/", logo: "linux.svg" },
+  { name: "AWS", link: "https://aws.amazon.com/", logo: "aws.svg" },
 ]
 
 const startedProgramming = 2009;
