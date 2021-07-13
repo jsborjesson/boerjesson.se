@@ -1,9 +1,9 @@
 <template>
-  <section class="p-12">
+  <section class="p-12 flex items-center">
     <figure>
       <blockquote>
         <p class="font-serif text-6xl -mb-12">&quot;</p>
-        <p style="text-indent: 2.5rem;">
+        <p class="text-lg" style="text-indent: 2.5rem;">
           Jag tycker om att arbeta med system som gör skillnad där det spelar roll, och som behöver kunna skala och fungera stabilt under många år, därför hjälper jag företag att utveckla robusta system som effektivt löser verkliga problem och känns moderna att använda.
         </p>
       </blockquote>

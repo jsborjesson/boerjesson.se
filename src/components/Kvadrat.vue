@@ -1,5 +1,5 @@
 <template>
-  <section class="p-12 bg-kvadrat text-gray-100 shadow-lg">
+  <section class="p-12 bg-kvadrat text-gray-100 shadow-lg lg:rounded">
     <a href="https://www.kvadrat.se/">
       <img class="w-40 mb-6" src="/images/kvadrat.svg" alt="Kvadrat logo" />
     </a>
