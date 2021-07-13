@@ -6,7 +6,7 @@
     </header>
 
     <main class="flex-auto lg:px-32">
-      <div class="lg:p-12 lg:grid lg:grid-cols-2">
+      <div class="lg:grid lg:grid-cols-2 lg:py-16 lg:gap-12">
         <Tagline />
         <Kvadrat />
       </div>

@@ -48,6 +48,7 @@ const tools: Tool[] = [
   { name: "Docker", link: "https://www.docker.com/", logo: "docker.svg" },
   { name: "Linux", link: "https://www.kernel.org/", logo: "linux.svg" },
   { name: "AWS", link: "https://aws.amazon.com/", logo: "aws.svg" },
+  { name: "TailwindCSS", link: "https://tailwindcss.com/", logo: "tailwindcss.svg" },
 ]
 
 const startedProgramming = 2009;
