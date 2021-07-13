@@ -1,17 +1,19 @@
 <template>
   <div class="flex flex-col min-h-screen bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200">
-    <header class="flex items-center justify-between px-12 pt-12 lg:px-32">
-      <Brand />
-      <ThemeToggle />
-    </header>
+    <div class="max-w-screen-2xl mx-auto flex-auto">
+      <header class="flex items-center justify-between px-12 pt-12">
+        <Brand />
+        <ThemeToggle />
+      </header>
 
-    <main class="flex-auto lg:px-32">
-      <div class="lg:grid lg:grid-cols-2 lg:py-16 lg:gap-12">
-        <Tagline />
-        <Kvadrat />
-      </div>
-      <Tools />
-    </main>
+      <main>
+        <div class="lg:px-12 lg:grid lg:grid-cols-2 lg:py-16 lg:gap-12">
+          <Tagline />
+          <Kvadrat />
+        </div>
+        <Tools />
+      </main>
+    </div>
 
     <footer>
       <Footer />
