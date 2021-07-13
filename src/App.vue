@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-gray-100 text-gray-800">
+  <div class="flex flex-col min-h-screen bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200">
     <header class="lg:px-32">
       <Brand />
     </header>
