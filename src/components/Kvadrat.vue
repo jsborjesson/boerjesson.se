@@ -20,7 +20,7 @@
         Läs mitt CV
       </a>
       <a
-        href="/docs/CV Jimmy Börjesson.docx"
+        href="./docs/CV Jimmy Börjesson.docx"
         class="flex py-3 px-6 rounded border hover:bg-red-800 active:bg-red-800"
       >
         <svg class="fill-current mr-2" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
