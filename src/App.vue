@@ -1,13 +1,12 @@
 <template>
   <div class="flex flex-col min-h-screen bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200">
     <div class="max-w-screen-2xl mx-auto flex-auto">
-      <header class="flex items-center justify-between px-12 pt-12">
+      <header>
         <Brand />
-        <ThemeToggle />
       </header>
 
       <main>
-        <div class="lg:px-12 lg:grid lg:grid-cols-2 lg:py-16 lg:gap-12">
+        <div class="lg:px-12 lg:grid lg:grid-cols-2 lg:gap-12">
           <Tagline />
           <Kvadrat />
         </div>
@@ -35,7 +34,6 @@ import Footer from './components/Footer.vue'
 import Kvadrat from './components/Kvadrat.vue'
 import Tagline from './components/Tagline.vue'
 import Tools from './components/Tools.vue'
-import ThemeToggle from './components/ThemeToggle.vue'
 
 export default defineComponent({
   name: 'App',
@@ -45,7 +43,6 @@ export default defineComponent({
     Kvadrat,
     Tagline,
     Tools,
-    ThemeToggle,
   }
 })
 </script>
