@@ -1,5 +1,5 @@
 <template>
-  <section class="p-12 flex items-center">
+  <section class="p-12 lg:p-0 flex items-center">
     <figure>
       <blockquote>
         <p class="font-serif text-6xl -mb-12">&quot;</p>

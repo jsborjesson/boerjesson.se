@@ -1,6 +1,6 @@
 <template>
   <section class="p-12">
-    <p class="mb-6" style="text-indent: 2.5rem;">
+    <p class="mb-6 italic">
       Efter {{ yearsExperience }} år som utvecklare är jag van att snabbt sätta mig in i nya tekniker och använda verktyg på deras respektive mest effektiva sätt. Nedan följer ett axplock av tekniker jag redan är van att arbeta med, ser du flera du känner igen är chansen stor att jag kan hjälpa just er!
     </p>
 
