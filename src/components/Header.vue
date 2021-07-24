@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center py-4 sm:p-12">
+  <header class="flex items-center py-4 sm:p-12">
     <div class="w-12 h-12 p-2">
       <svg class="dark:hidden rounded" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 100V0l37.5 25L75 50 37.5 75z" fill-rule="evenodd" fill="#222" />
@@ -14,18 +14,18 @@
       Börjesson Consulting AB
     </h1>
     <div class="w-12 h-12 flex justify-center items-center">
-      <ThemeToggle />
+      <DarkMode />
     </div>
-  </div>
+  </header>
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue"
-import ThemeToggle from "./ThemeToggle.vue"
+import DarkMode from "./DarkMode.vue"
 
 export default defineComponent({
   components: {
-    ThemeToggle,
+    DarkMode,
   }
 })
 </script>
