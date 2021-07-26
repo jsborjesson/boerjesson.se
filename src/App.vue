@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col min-h-screen bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-200">
-    <div class="max-w-screen-2xl mx-auto flex-auto">
+  <div class="flex flex-col min-h-screen text-gray-800 bg-gray-100 dark:bg-gray-700 dark:text-gray-200">
+    <div class="flex-auto mx-auto max-w-screen-2xl">
       <Header />
 
       <main>
@@ -10,6 +10,7 @@
         </div>
 
         <Tools />
+        <About />
       </main>
     </div>
 
@@ -28,8 +29,9 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import Header from './components/Header.vue'
+import About from './components/About.vue'
 import Footer from './components/Footer.vue'
+import Header from './components/Header.vue'
 import Kvadrat from './components/Kvadrat.vue'
 import Tagline from './components/Tagline.vue'
 import Tools from './components/Tools.vue'
@@ -37,8 +39,9 @@ import Tools from './components/Tools.vue'
 export default defineComponent({
   name: 'App',
   components: {
-    Header,
+    About,
     Footer,
+    Header,
     Kvadrat,
     Tagline,
     Tools,
