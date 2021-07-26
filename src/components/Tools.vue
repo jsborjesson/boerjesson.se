@@ -8,7 +8,7 @@
       <a v-for="tool in tools" :key="tool.name" :href="tool.link">
         <figure class="w-20 h-20 m-6 transform transition-all duration-50 opacity-75 hover:opacity-100 hover:scale-110">
           <img
-            :src="`./images/${tool.logo}`"
+            :src="`./images/tools/${tool.logo}`"
             :alt="`${tool.name} logo`" />
           <figcaption class="text-center select-none mt-2">{{ tool.name }}</figcaption>
         </figure>
