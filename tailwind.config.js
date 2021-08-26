@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         kvadrat: "#ab1719",
-        gray: colors.coolGray,
+        gray: colors.warmGray,
       },
       fontFamily: {
         sans: ['IBM Plex Sans', 'sans-serif'],

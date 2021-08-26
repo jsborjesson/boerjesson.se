@@ -1,5 +1,5 @@
 <template>
-  <div class="px-6 py-12 text-gray-100 bg-gray-900 sm:p-12">
+  <div class="px-6 py-12 text-gray-100 bg-gray-800 sm:p-12">
     <div class="flex flex-col items-center space-y-8 sm:space-y-0 sm:justify-center sm:flex-row sm:space-x-8">
       <a class="flex hover:text-blue-200 active:text-blue-200" href="https://www.linkedin.com/in/jimmy-b%C3%B6rjesson-a2b1ba48/">
         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

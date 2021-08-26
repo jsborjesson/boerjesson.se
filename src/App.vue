@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen text-gray-800 bg-gray-100 dark:bg-gray-700 dark:text-gray-200">
+  <div class="flex flex-col min-h-screen text-gray-800 bg-gray-100 dark:bg-gray-900 dark:text-gray-300">
     <div class="flex-auto mx-auto max-w-screen-2xl">
       <Header />
 
