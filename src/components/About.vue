@@ -6,8 +6,8 @@
     <div>
       <h2 class="mb-4 font-serif text-lg font-bold">Om</h2>
       <p>
-        Börjesson Consulting AB startades 2020 och bedriver konsultverksamhet framförallt inom webbutveckling i Västra Götalandsregionen och på distans.
-        Syftet är att hjälpa företag i med ny- och vidareutveckling av avancerade mjukvarusystem.
+        Börjesson Solutions AB startades 2020 och bedriver konsultverksamhet framförallt inom webbutveckling i Västra Götalandsregionen och på distans.
+        Syftet är att hjälpa företag med ny- och vidareutveckling av avancerade mjukvarusystem.
       </p>
     </div>
   </section>

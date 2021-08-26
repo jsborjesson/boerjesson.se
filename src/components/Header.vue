@@ -11,7 +11,7 @@
       </svg>
     </div>
     <h1 class="flex-1 font-serif font-bold whitespace-nowrap text-center text-lg sm:text-left sm:ml-4 sm:text-2xl lg:text-3xl">
-      Börjesson Consulting AB
+      Börjesson Solutions AB
     </h1>
     <div class="w-8 h-8 sm:w-12 sm:h-12 flex justify-center items-center">
       <DarkMode />

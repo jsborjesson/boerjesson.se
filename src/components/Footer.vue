@@ -20,7 +20,7 @@
         <span class="ml-2">Kvadrat</span>
       </a>
     </div>
-    <div class="mt-12 italic text-center">&copy; {{year }} Börjesson Consulting AB </div>
+    <div class="mt-12 italic text-center">&copy; {{year }} Börjesson Solutions AB </div>
   </div>
 </template>
 
