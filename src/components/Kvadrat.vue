@@ -5,7 +5,7 @@
     </a>
 
     <p style="text-indent: 2.5rem;">
-      Jag är ansluten till <strong>Kvadrat</strong>, Sveriges lyckligaste konsulter. Vi erbjuder våra kunder en unik kombination av konsultens expertis och egenföretagarens engagemang, attityd och motivation att alltid lyckas. Kvadrat bildades 1988 och idag är vi ca 500 Kvadratare med kontor i Stockholm, Göteborg, Malmö, Linköping, Norrköping, Jönköping, Växjö, Örebro, Borlänge och Sundsvall.
+      Jag är partner i <strong>Kvadrat</strong>, Sveriges lyckligaste konsulter. Vi erbjuder våra kunder en unik kombination av konsultens expertis och egenföretagarens engagemang, attityd och motivation att alltid lyckas. Kvadrat bildades 1988 och idag är vi ca 500 Kvadratare med kontor i Stockholm, Göteborg, Malmö, Linköping, Norrköping, Jönköping, Växjö, Örebro, Borlänge och Sundsvall.
     </p>
 
     <div class="flex flex-col justify-end mt-6 space-y-4 sm:space-y-0 sm:flex-row sm:space-x-4">
